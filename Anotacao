@@ -122,10 +122,17 @@ Operadores Scape:
 \\ = Barras invertidas. Utilizadas para imprimir um caractere de barra invertida
 \"" = Aspas duplas. Utilizadas para imprimir um caractere de aspas duplas. Por exemplo, exibe "entre aspas".
 
-Operadors Aritméticas:
+Operadores Aritméticas:
 
 Adição =   +  /   f + 7
 Subtração =  -  /  p - c
 Multiplicação =  *  /  b * m
 Divisão =  /  /  x / y
 Resto =  %  /  r % s
+
+Operadadores Atribuição:
+
+++ = Pré-Incremento / ++a
+++ Pós-incremento / a++
+-- Pré-Decremento / --b
+-- Pós-Decremento / b--
