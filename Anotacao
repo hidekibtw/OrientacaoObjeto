@@ -136,3 +136,36 @@ Operadadores Atribuição:
 ++ Pós-incremento / a++
 -- Pré-Decremento / --b
 -- Pós-Decremento / b--
+
+			
+//Formatação do resultado(número de casas decimais)
+//("#0.00) 2 casas decimais
+	DecimalFormat formatador = new DecimalFormat("#0.00");
+	lblValor.setText("R$ " + formatador.format(valor));
+	
+//Campos Obrigatórios
+	if (txtEstimativa.getText().isEmpty()) {
+	JOptionPane.showMessageDialog(null, "Preencha a estimativa de horas");
+	txtEstimativa.requestFocus();
+	} else {
+	//Lógica Principal
+	//Entrada
+		estimativa = Integer.parseInt(txtEstimativa.getText());
+	//Processamento
+		total = (valor * estimativa);
+	//saída
+		lblTotal.setText("R$" + total);
+				
+	//formatação do resultado(número de casas decimais)
+		DecimalFormat formatador = new DecimalFormat("#0.00");
+		lblTotal.setText("R$ " + formatador.format(total));
+	}
+			
+		}
+
+//Limpar Campos
+	private void limparCampos() {
+	txtRemuneracao.setText(null);
+	txtCusto.setText(null);
+	txtCargaHoraria.setText(null);
+	txtEstimativa.setText(null);
