@@ -169,3 +169,19 @@ Operadadores Atribuição:
 	txtCusto.setText(null);
 	txtCargaHoraria.setText(null);
 	txtEstimativa.setText(null);
+
+
+
+ // ENCAPSULAMENTO 
+ O principal objetivo do encapsulamento é refinar a segurança do sistema limitando o acesso as variáveis 
+ e também impedindo limitando o acesso as variáveis e também impedindo que valores inapropriados sejam atribuídos
+
+// Modificadores  de Acesso //
+ (RED) private - Acesso permite somente na própria classe.
+ (BLUE) "Nenhum Modificador definido" - Acesso permitido a todas as classes que pertençam ao mesmo pacote
+ (YELLOW) protected - Acesso permitido a todas as classes que pertençam ai mesmo pacote.
+	  	      Acesso permitido a classes de outros pacotes em caso de gerança
+ (GREEN) public - Acesso permitido a todas as classes de qualquer pacote
+ 
+ Source -> Generate Constructors from Superclass... = COLOCAR NA CLASSE CONTA NO MÉTODO CONSTRUTOR
+ 
