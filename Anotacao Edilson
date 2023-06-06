@@ -1,0 +1,11 @@
+200 OK
+201 Criado
+202 Aceito
+400 Pedido ruim
+401 Não autorizado
+402 Pagamento exigido
+403 Proibido
+404 Não Encontrado
+
+----------------------------
+Generate Method
